@@ -43,3 +43,5 @@ source: git+https://github.com/apache/thrift.git
 satisfy:
     pacman: thrift
     pkgconfig: thrift
+vars:
+    config_opt: ' -DENABLE_PYTHON3=OFF '
